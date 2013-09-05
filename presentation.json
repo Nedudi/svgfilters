@@ -1,0 +1,749 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 172,
+          "y": 35,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Client-side&nbsp;</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">play-runtine image&nbsp;</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">filtering alternative</font></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/wp-content/uploads/2013/08/timthumb.jpg",
+          "type": "Image",
+          "x": 332,
+          "y": 342,
+          "scale": {
+            "x": 0.6653386454183267,
+            "y": 0.6653386454183267,
+            "width": 334,
+            "height": 334
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 30,
+      "y": 80
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 162,
+          "y": 62,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#006ee0\"><b>Possible ways of<br>&nbsp;play-mode-filtering</b>:</font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 129,
+          "y": 273,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ol><li><span style=\"line-height: normal;\">webgl ( a la glfx)</span><br></li><li><span style=\"line-height: normal;\">canvas (a la tons of slow libs)</span></li><li><span style=\"line-height: normal;\">css filter effects</span></li><li><span style=\"line-height: normal;\">svg effects for html</span></li><li><span style=\"line-height: normal;\">svg filters</span></li></ol>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "src": "http://www.nymander.com/images/Filosofit/Yoda.png",
+          "type": "Image",
+          "x": 717,
+          "y": 537,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.74,
+      "rotateY": 0,
+      "rotateZ": 0.5,
+      "selected": false,
+      "active": false,
+      "x": 30,
+      "y": 272
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 369,
+          "y": 57,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#678f00\">WebGL </font><br></b>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 198,
+          "y": 298,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">pure mobile support</span><br></li><li><span style=\"line-height: normal;\">no ie 9-10 support</span></li><li><span style=\"line-height: normal;\">crossdomain problem</span></li><li><span style=\"line-height: normal;\">not cool to use in current <br>urturn expression architecture</span></li></ul>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 186,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#006ee0\">disadvantages&nbsp;regarding image filtering:</font><br>",
+          "size": 47,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 32,
+      "y": 454
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 346,
+          "y": 47,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#678f00\">Canvas</font></b>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 101,
+          "y": 158,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<span style=\"color: rgb(0, 110, 224); font-size: 47px;\">disadvantages&nbsp;regarding image filtering:</span><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 172,
+          "y": 322,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">Slow (especially for complex&nbsp;<br></span><span style=\"line-height: normal;\">compositions) + mobile <br>and this is dead... RIP :(</span></li><li><span style=\"line-height: normal;\">crossdomain problem</span></li></ul>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.3,
+      "selected": true,
+      "active": true,
+      "x": 299,
+      "y": 80
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "src": "http://i.imgur.com/29nIGKU.png",
+          "type": "Image",
+          "x": 62,
+          "y": 195,
+          "scale": {
+            "x": 1.2253129346314326,
+            "y": 1.2253129346314326,
+            "width": 881.0000000000001,
+            "height": 156.84005563282338
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 299,
+          "y": 56,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\"><b>Css filters</b></font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 88,
+          "y": 360,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<span style=\"color: rgb(0, 110, 224); font-size: 47px;\">disadvantages&nbsp;regarding image filtering:</span><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 82,
+          "y": 466,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">Very pure support :(<br></span>desctop chrome and safari</li></ul>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.07,
+      "selected": false,
+      "active": false,
+      "x": 292,
+      "y": 261
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 341.3333333333333,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<br>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 161,
+          "y": 29,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b style=\"color: rgb(103, 143, 0);\">SVG filters for HTML</b><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 74,
+          "y": 506,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<span style=\"color: rgb(0, 110, 224); font-size: 47px;\">disadvantages&nbsp;regarding image filtering:</span><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/QbYqLuQ.png",
+          "type": "Image",
+          "x": 44,
+          "y": 128,
+          "scale": {
+            "x": 0.7297514033680834,
+            "y": 0.7297514033680834,
+            "width": 910,
+            "height": 381.65998396150763
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 92,
+          "y": 611,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">All is ok, except ios and ie support :(</span><br></li></ul>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 278,
+      "y": 429
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 325,
+          "y": 38,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b style=\"color: rgb(103, 143, 0);\">SVG filters</b><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/9vPXoXq.png",
+          "type": "Image",
+          "x": 31,
+          "y": 178,
+          "scale": {
+            "x": 0.8431899641577061,
+            "y": 0.8431899641577061,
+            "width": 941,
+            "height": 270.6639784946237
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 380,
+          "y": 574,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: 1em;\">ios6+</span><span style=\"line-height: 1em;\">&nbsp;&nbsp;</span><br></li><li><span style=\"line-height: 1em;\">ie10+</span><br></li></ul>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 61,
+          "y": 467,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "just working well in our reality;)<br>",
+          "size": 64,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.26,
+      "selected": false,
+      "active": false,
+      "x": 293,
+      "y": 586
+    },
+    {
+      "num": 7,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 167,
+          "y": 180,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#006ee0\">More advantages&nbsp;</font></b></div><b><div style=\"text-align: center;\"><b><font color=\"#006ee0\">of runtime&nbsp;</font></b></div><font color=\"#006ee0\"><div style=\"text-align: center;\"><b style=\"color: rgb(51, 51, 51);\"><font color=\"#006ee0\">play mode filtering&nbsp;</font></b></div><div style=\"text-align: center;\"><b style=\"color: rgb(51, 51, 51);\"><font color=\"#006ee0\">with SVG filters:</font></b></div></font></b>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.12,
+      "selected": false,
+      "active": false,
+      "x": 556,
+      "y": 80
+    },
+    {
+      "num": 8,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 210,
+          "y": 174,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">No need to save&nbsp;</font></b></div><b><div style=\"text-align: center;\"><b><font color=\"#008be0\">filtered image:</font></b></div></b>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 138,
+          "y": 400,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">User clicks \"post\" and do not wait</span><br></li><li><span style=\"line-height: normal;\">Server do not spend recources</span><br></li></ul>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.74,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 546,
+      "y": 252
+    },
+    {
+      "num": 9,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 48,
+          "y": 35,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(0, 139, 224);\"><b>Advanced tree-like SVG filters&nbsp;</b></span></div><div style=\"text-align: center;\"><span style=\"color: rgb(0, 139, 224);\"><b>architecture</b></span></div>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/KzuKcGp.png",
+          "type": "Image",
+          "x": 44,
+          "y": 303,
+          "scale": {
+            "x": 1.51414309484193,
+            "y": 1.51414309484193,
+            "width": 910,
+            "height": 317.9700499168053
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.19,
+      "selected": false,
+      "active": false,
+      "x": 542,
+      "y": 423
+    },
+    {
+      "num": 10,
+      "components": [
+        {
+          "src": "http://i.imgur.com/kW2W5ZA.png",
+          "type": "Image",
+          "x": 14,
+          "y": 13,
+          "scale": {
+            "x": 1.727112676056338,
+            "y": 1.727112676056338,
+            "width": 981,
+            "height": 568.2200704225352
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 826,
+      "y": 76
+    },
+    {
+      "num": 11,
+      "components": [
+        {
+          "src": "http://i.imgur.com/uCgTOPn.png",
+          "type": "Image",
+          "x": 34,
+          "y": 23,
+          "scale": {
+            "x": 1.6672661870503598,
+            "y": 1.6672661870503598,
+            "width": 927,
+            "height": 715.2571942446043
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 822,
+      "y": 243
+    },
+    {
+      "num": 12,
+      "components": [
+        {
+          "src": "http://i.imgur.com/Ynr6OT4.png",
+          "type": "Image",
+          "x": 15,
+          "y": 36,
+          "scale": {
+            "x": 1.5877616747181964,
+            "y": 1.5877616747181964,
+            "width": 986,
+            "height": 708.1417069243156
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 822,
+      "y": 410
+    },
+    {
+      "num": 14,
+      "components": [
+        {
+          "src": "http://i.imgur.com/cmXYaKA.png",
+          "type": "Image",
+          "x": 11,
+          "y": 42,
+          "scale": {
+            "x": 1.7407407407407407,
+            "y": 1.7407407407407407,
+            "width": 987,
+            "height": 675.4074074074074
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.02,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 823,
+      "y": 574
+    },
+    {
+      "num": 13,
+      "components": [
+        {
+          "src": "http://i.imgur.com/k45D6wJ.png",
+          "type": "Image",
+          "x": 23,
+          "y": 107,
+          "scale": {
+            "x": 1.7808988764044944,
+            "y": 1.7808988764044944,
+            "width": 951,
+            "height": 544.9550561797753
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 823,
+      "y": 743
+    },
+    {
+      "num": 15,
+      "components": [
+        {
+          "src": "http://i.imgur.com/3vACJtV.png",
+          "type": "Image",
+          "x": 17,
+          "y": 128,
+          "scale": {
+            "x": 1.8238636363636365,
+            "y": 1.8238636363636365,
+            "width": 963,
+            "height": 455.9659090909091
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.96,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 824,
+      "y": 909
+    }
+  ],
+  "activeSlide": {
+    "num": 3,
+    "components": [
+      {
+        "TextBox": {},
+        "x": 346,
+        "y": 47,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<b><font color=\"#678f00\">Canvas</font></b>",
+        "size": 96,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 101,
+        "y": 158,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<span style=\"color: rgb(0, 110, 224); font-size: 47px;\">disadvantages&nbsp;regarding image filtering:</span><br>",
+        "size": 72,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 172,
+        "y": 322,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<ul><li><span style=\"line-height: normal;\">Slow (especially for complex&nbsp;<br></span><span style=\"line-height: normal;\">compositions) + mobile <br>and this is dead... RIP :(</span></li><li><span style=\"line-height: normal;\">crossdomain problem</span></li></ul>",
+        "size": 48,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": -0.3,
+    "selected": true,
+    "active": true,
+    "x": 299,
+    "y": 80
+  },
+  "fileName": "presentation-2",
+  "overviewX": 428,
+  "overviewY": 492.5
+}
